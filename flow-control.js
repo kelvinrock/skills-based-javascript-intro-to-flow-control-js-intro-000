@@ -20,7 +20,7 @@ if (age >= 13 && age <= 19){
 
 function ternaryTeenager(age) {
   if (age >= 13 && age <= 19){
-ternaryTeenager(age) ? "You are a teenager" : "You are not a teenager"};
+return ternaryTeenager ? "You are a teenager" : "You are not a teenager"};
 }
 
 function switchAge(age) {
